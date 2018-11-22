@@ -2,7 +2,7 @@
 
 A tiny Python library for finding and processing files.
 
-![Filekit logo: a balloon that says 'filekit' on it](https://raw.githubusercontent.com/foundling/filekit/master/filekit.png?sanitize=true)
+![Filekit logo: a balloon that says 'filekit' on it](https://raw.githubusercontent.com/foundling/filekit/master/media/filekit.png?sanitize=true)
 
 ### Installation
 
