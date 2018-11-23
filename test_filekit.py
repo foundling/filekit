@@ -12,7 +12,6 @@ test_data = '''
 '''
 
 
-
 @pytest.fixture(scope="module", autouse=True)
 def build_test_dir():
 
@@ -34,6 +33,8 @@ def build_test_dir():
     # test is run
     yield 
 
+    if 'test' in os.listdir('.'):
+        shutil.rmtree('test')
 
 def test_find_files_defaults():
 
