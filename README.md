@@ -77,7 +77,7 @@ We can run `find_files` in this way:
 
 ````python
 from filekit import find_files
-files = find_files(dir='test_data/regular', filename_pattern='subject')
+files = find_files(root_dir='test_data/regular', filename_pattern='subject')
 ````
 
 This yields the following results:
